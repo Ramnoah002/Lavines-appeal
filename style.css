@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+.btn{
+    background-color: cyan;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(1.05);
+}
